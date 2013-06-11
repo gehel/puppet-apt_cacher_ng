@@ -207,7 +207,7 @@ class apt_cacher_ng (
       tool     => $apt_cacher_ng::monitor_tool,
       enable   => $apt_cacher_ng::manage_monitor,
     }
-    monitor::process { 'apt_cacher_ng_process':
+    monitor::process { 'apt-cacher-ng_process':
       process  => $apt_cacher_ng::process,
       service  => $apt_cacher_ng::service,
       pidfile  => $apt_cacher_ng::pid_file,
