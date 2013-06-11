@@ -1,0 +1,12 @@
+name 'gehel-apt_cacher_ng'
+version '0.0.1'
+
+author 'gehel'
+license 'Apache2'
+project_page 'https://github.com/gehel/puppet-apt_cacher_ng'
+source 'https://github.com/gehel/puppet-apt_cacher_ng'
+summary ''
+description 'This puppet module will install and configure apt-cacher-ng.'
+dependency 'example42/puppi', '>=2.0.0'
+dependency 'example42/firewall', '>=2.0.0'
+dependency 'example42/monitor', '>=2.0.0'

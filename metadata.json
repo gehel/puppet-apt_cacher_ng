@@ -1,0 +1,35 @@
+{
+  "name": "gehel-apt_cacher_ng",
+  "author": "gehel",
+  "description": "This puppet module will install and configure apt-cacher-ng",
+  "license": "Apache2",
+  "project_page": "https://github.com/gehel/puppet-apt_cacher_ng",
+  "source": "https://github.com/gehel/puppet-apt_cacher_ng",
+  "summary": "",
+  "version": "0.0.1",
+  "checksums": {
+    "Modulefile": "8a9253fbee6506eb45c9b3a9be316c75",
+    "README.markdown": "e6d35f4e76210adc41d856bb0cdd9d2a",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "c05f369b2f80c1e7485eea1839e986f9",
+    "manifests/params.pp": "45c7806d7656a88c473faddb359d3b0e",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/acng.conf.erb": "a1719ebd36e6647831570dd5f4d34fc9",
+    "tests/init.pp": "078b9ef03478bc960f3a1fe49969dfe7"
+  },
+  "dependencies": [
+    {
+      "name": "example42/puppi",
+      "version_requirement": "\u003e\u003d2.0.0"
+    },
+    {
+      "name": "example42/firewall",
+      "version_requirement": "\u003e\u003d2.0.0"
+    },
+    {
+      "name": "example42/monitor",
+      "version_requirement": "\u003e\u003d2.0.0"
+    }
+  ]
+}
